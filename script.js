@@ -2,6 +2,7 @@ class MemoryTest {
     constructor() {
         this.wordPairs = [];
         this.studyPairs = [];
+        this.recallPairs = [];
         this.currentStudyIndex = 0;
         this.currentRecallIndex = 0;
         this.userAnswers = [];
@@ -182,32 +183,34 @@ class MemoryTest {
     startRecallPhase() {
         this.showScreen('recall-screen');
         this.currentRecallIndex = 0;
+        // Shuffle the order for recall phase to make it more challenging
+        this.recallPairs = this.shuffleArray([...this.studyPairs]);
         this.showRecallQuestion();
     }
 
     showRecallQuestion() {
-        if (this.currentRecallIndex >= this.studyPairs.length) {
+        if (this.currentRecallIndex >= this.recallPairs.length) {
             this.showResults();
             return;
         }
 
-        const pair = this.studyPairs[this.currentRecallIndex];
+        const pair = this.recallPairs[this.currentRecallIndex];
         document.getElementById('recall-swahili').textContent = pair.q;
         document.getElementById('recall-input').value = '';
         document.getElementById('recall-input').focus();
         
         // Update progress
         document.getElementById('recall-progress').textContent = 
-            `Question ${this.currentRecallIndex + 1} / ${this.studyPairs.length}`;
+            `Question ${this.currentRecallIndex + 1} / ${this.recallPairs.length}`;
     }
 
     submitAnswer() {
         const userAnswer = document.getElementById('recall-input').value.trim().toLowerCase();
-        const correctAnswer = this.studyPairs[this.currentRecallIndex].a.trim().toLowerCase();
+        const correctAnswer = this.recallPairs[this.currentRecallIndex].a.trim().toLowerCase();
         
         this.userAnswers.push({
-            swahili: this.studyPairs[this.currentRecallIndex].q,
-            correctAnswer: this.studyPairs[this.currentRecallIndex].a,
+            swahili: this.recallPairs[this.currentRecallIndex].q,
+            correctAnswer: this.recallPairs[this.currentRecallIndex].a,
             userAnswer: document.getElementById('recall-input').value.trim(),
             isCorrect: userAnswer === correctAnswer
         });
@@ -218,8 +221,8 @@ class MemoryTest {
 
     skipAnswer() {
         this.userAnswers.push({
-            swahili: this.studyPairs[this.currentRecallIndex].q,
-            correctAnswer: this.studyPairs[this.currentRecallIndex].a,
+            swahili: this.recallPairs[this.currentRecallIndex].q,
+            correctAnswer: this.recallPairs[this.currentRecallIndex].a,
             userAnswer: '',
             isCorrect: false
         });
