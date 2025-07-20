@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multisense Memory Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Welcome Screen -->
+        <div id="welcome-screen" class="screen">
+            <h1>Multisense Memory Test</h1>
+            <div class="settings">
+                <div class="setting-group">
+                    <label>Condition:</label>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="condition" value="visual" checked>
+                            Visual Only
+                        </label>
+                        <label>
+                            <input type="radio" name="condition" value="audio-visual">
+                            Audio + Visual
+                        </label>
+                    </div>
+                </div>
+
+                <div class="setting-group">
+                    <label for="word-count">Number of pairs:</label>
+                    <select id="word-count">
+                        <option value="10">10</option>
+                        <option value="20" selected>20</option>
+                        <option value="30">30</option>
+                        <option value="40">40</option>
+                        <option value="50">50</option>
+                    </select>
+                </div>
+
+                <div class="setting-group">
+                    <label for="time-per-pair">Seconds per pair: <span id="time-display">3</span></label>
+                    <input type="range" id="time-per-pair" min="1" max="5" value="3" step="1">
+                </div>
+
+                <button id="start-btn" class="btn-primary">Start Study</button>
+            </div>
+        </div>
+
+        <!-- Study Phase -->
+        <div id="study-screen" class="screen hidden">
+            <div class="progress">
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+                <span id="progress-text">1 / 20</span>
+            </div>
+            
+            <div class="study-card">
+                <div id="swahili-word" class="word swahili"></div>
+                <div id="english-word" class="word english"></div>
+            </div>
+
+            <div class="timer-display">
+                <div id="timer-circle" class="timer-circle"></div>
+                <span id="timer-text">3</span>
+            </div>
+        </div>
+
+        <!-- Recall Test -->
+        <div id="recall-screen" class="screen hidden">
+            <div class="progress">
+                <span id="recall-progress">Question 1 / 20</span>
+            </div>
+
+            <div class="recall-card">
+                <div id="recall-swahili" class="word swahili"></div>
+                <input type="text" id="recall-input" placeholder="Enter English translation" autofocus>
+                <div class="recall-buttons">
+                    <button id="skip-btn" class="btn-secondary">Skip</button>
+                    <button id="submit-btn" class="btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen hidden">
+            <h2>Test Complete!</h2>
+            <div class="score">
+                <div id="score-display" class="score-number">0 / 20</div>
+                <div class="score-percentage"></div>
+            </div>
+
+            <div id="missed-words" class="missed-section">
+                <h3>Review Missed Words:</h3>
+                <div id="missed-list"></div>
+            </div>
+
+            <button id="restart-btn" class="btn-primary">Take Another Test</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

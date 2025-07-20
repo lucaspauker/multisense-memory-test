@@ -1,0 +1,722 @@
+[
+  {
+    "q": "moto",
+    "a": "fire"
+  },
+  {
+    "q": "mbwa",
+    "a": "dog"
+  },
+  {
+    "q": "meza",
+    "a": "table"
+  },
+  {
+    "q": "nyoka",
+    "a": "snake"
+  },
+  {
+    "q": "kisu",
+    "a": "knife"
+  },
+  {
+    "q": "jiwe",
+    "a": "stone"
+  },
+  {
+    "q": "punda",
+    "a": "donkey"
+  },
+  {
+    "q": "sahani",
+    "a": "plate"
+  },
+  {
+    "q": "kalamu",
+    "a": "pen"
+  },
+  {
+    "q": "taa",
+    "a": "lamp"
+  },
+  {
+    "q": "gari",
+    "a": "car"
+  },
+  {
+    "q": "mlango",
+    "a": "door"
+  },
+  {
+    "q": "mchoro",
+    "a": "drawing"
+  },
+  {
+    "q": "samaki",
+    "a": "fish"
+  },
+  {
+    "q": "ndege",
+    "a": "bird"
+  },
+  {
+    "q": "paa",
+    "a": "roof"
+  },
+  {
+    "q": "kikapu",
+    "a": "basket"
+  },
+  {
+    "q": "shoka",
+    "a": "axe"
+  },
+  {
+    "q": "nguo",
+    "a": "clothes"
+  },
+  {
+    "q": "kitabu",
+    "a": "book"
+  },
+  {
+    "q": "soko",
+    "a": "market"
+  },
+  {
+    "q": "shule",
+    "a": "school"
+  },
+  {
+    "q": "mwanafunzi",
+    "a": "student"
+  },
+  {
+    "q": "mwalimu",
+    "a": "teacher"
+  },
+  {
+    "q": "kioo",
+    "a": "mirror"
+  },
+  {
+    "q": "kompyuta",
+    "a": "computer"
+  },
+  {
+    "q": "simu",
+    "a": "phone"
+  },
+  {
+    "q": "chumba",
+    "a": "room"
+  },
+  {
+    "q": "ukuta",
+    "a": "wall"
+  },
+  {
+    "q": "dirisha",
+    "a": "window"
+  },
+  {
+    "q": "kitanda",
+    "a": "bed"
+  },
+  {
+    "q": "sanduku",
+    "a": "box"
+  },
+  {
+    "q": "fimbo",
+    "a": "stick"
+  },
+  {
+    "q": "farasi",
+    "a": "horse"
+  },
+  {
+    "q": "ng'ombe",
+    "a": "cow"
+  },
+  {
+    "q": "mbuzi",
+    "a": "goat"
+  },
+  {
+    "q": "kuku",
+    "a": "chicken"
+  },
+  {
+    "q": "ndizi",
+    "a": "banana"
+  },
+  {
+    "q": "embe",
+    "a": "mango"
+  },
+  {
+    "q": "papai",
+    "a": "papaya"
+  },
+  {
+    "q": "parachichi",
+    "a": "avocado"
+  },
+  {
+    "q": "machungwa",
+    "a": "oranges"
+  },
+  {
+    "q": "maembe",
+    "a": "mangoes"
+  },
+  {
+    "q": "nanasi",
+    "a": "pineapple"
+  },
+  {
+    "q": "viazi",
+    "a": "potatoes"
+  },
+  {
+    "q": "karoti",
+    "a": "carrot"
+  },
+  {
+    "q": "kitunguu",
+    "a": "onion"
+  },
+  {
+    "q": "nyanya",
+    "a": "tomato"
+  },
+  {
+    "q": "mboga",
+    "a": "vegetable"
+  },
+  {
+    "q": "chakula",
+    "a": "food"
+  },
+  {
+    "q": "maji",
+    "a": "water"
+  },
+  {
+    "q": "chai",
+    "a": "tea"
+  },
+  {
+    "q": "kahawa",
+    "a": "coffee"
+  },
+  {
+    "q": "maziwa",
+    "a": "milk"
+  },
+  {
+    "q": "sukari",
+    "a": "sugar"
+  },
+  {
+    "q": "chumvi",
+    "a": "salt"
+  },
+  {
+    "q": "mkate",
+    "a": "bread"
+  },
+  {
+    "q": "mayai",
+    "a": "eggs"
+  },
+  {
+    "q": "nyama",
+    "a": "meat"
+  },
+  {
+    "q": "samahani",
+    "a": "sorry"
+  },
+  {
+    "q": "ndugu",
+    "a": "relative"
+  },
+  {
+    "q": "rafiki",
+    "a": "friend"
+  },
+  {
+    "q": "mji",
+    "a": "city"
+  },
+  {
+    "q": "kijiji",
+    "a": "village"
+  },
+  {
+    "q": "barabara",
+    "a": "road"
+  },
+  {
+    "q": "daraja",
+    "a": "bridge"
+  },
+  {
+    "q": "mto",
+    "a": "river"
+  },
+  {
+    "q": "ziwa",
+    "a": "lake"
+  },
+  {
+    "q": "mlima",
+    "a": "mountain"
+  },
+  {
+    "q": "bahari",
+    "a": "ocean"
+  },
+  {
+    "q": "msitu",
+    "a": "forest"
+  },
+  {
+    "q": "jangwa",
+    "a": "desert"
+  },
+  {
+    "q": "mvua",
+    "a": "rain"
+  },
+  {
+    "q": "jua",
+    "a": "sun"
+  },
+  {
+    "q": "upepo",
+    "a": "wind"
+  },
+  {
+    "q": "theluji",
+    "a": "snow"
+  },
+  {
+    "q": "angani",
+    "a": "sky"
+  },
+  {
+    "q": "nyota",
+    "a": "star"
+  },
+  {
+    "q": "mwezi",
+    "a": "moon"
+  },
+  {
+    "q": "ardhi",
+    "a": "earth"
+  },
+  {
+    "q": "udongo",
+    "a": "soil"
+  },
+  {
+    "q": "mawe",
+    "a": "rocks"
+  },
+  {
+    "q": "majani",
+    "a": "leaves"
+  },
+  {
+    "q": "mti",
+    "a": "tree"
+  },
+  {
+    "q": "shina",
+    "a": "trunk"
+  },
+  {
+    "q": "matawi",
+    "a": "branches"
+  },
+  {
+    "q": "maua",
+    "a": "flowers"
+  },
+  {
+    "q": "mbegu",
+    "a": "seeds"
+  },
+  {
+    "q": "nyumba",
+    "a": "house"
+  },
+  {
+    "q": "gari la moshi",
+    "a": "train"
+  },
+  {
+    "q": "ndege ya kuruka",
+    "a": "airplane"
+  },
+  {
+    "q": "baiskeli",
+    "a": "bicycle"
+  },
+  {
+    "q": "pikipiki",
+    "a": "motorbike"
+  },
+  {
+    "q": "teksi",
+    "a": "taxi"
+  },
+  {
+    "q": "basi",
+    "a": "bus"
+  },
+  {
+    "q": "meli",
+    "a": "ship"
+  },
+  {
+    "q": "bandari",
+    "a": "port"
+  },
+  {
+    "q": "nanga",
+    "a": "anchor"
+  },
+  {
+    "q": "abiria",
+    "a": "passenger"
+  },
+  {
+    "q": "nahodha",
+    "a": "captain"
+  },
+  {
+    "q": "askari",
+    "a": "police"
+  },
+  {
+    "q": "jeshi",
+    "a": "army"
+  },
+  {
+    "q": "vita",
+    "a": "war"
+  },
+  {
+    "q": "amani",
+    "a": "peace"
+  },
+  {
+    "q": "bendera",
+    "a": "flag"
+  },
+  {
+    "q": "raia",
+    "a": "citizen"
+  },
+  {
+    "q": "kiongozi",
+    "a": "leader"
+  },
+  {
+    "q": "serikali",
+    "a": "government"
+  },
+  {
+    "q": "sheria",
+    "a": "law"
+  },
+  {
+    "q": "mahakama",
+    "a": "court"
+  },
+  {
+    "q": "hakimu",
+    "a": "judge"
+  },
+  {
+    "q": "mfungwa",
+    "a": "prisoner"
+  },
+  {
+    "q": "gereza",
+    "a": "prison"
+  },
+  {
+    "q": "uhuru",
+    "a": "freedom"
+  },
+  {
+    "q": "kazi",
+    "a": "work"
+  },
+  {
+    "q": "ajira",
+    "a": "employment"
+  },
+  {
+    "q": "biashara",
+    "a": "business"
+  },
+  {
+    "q": "duka",
+    "a": "shop"
+  },
+  {
+    "q": "bei",
+    "a": "price"
+  },
+  {
+    "q": "pesa",
+    "a": "money"
+  },
+  {
+    "q": "benki",
+    "a": "bank"
+  },
+  {
+    "q": "akaunti",
+    "a": "account"
+  },
+  {
+    "q": "kadi",
+    "a": "card"
+  },
+  {
+    "q": "hesabu",
+    "a": "math"
+  },
+  {
+    "q": "elimu",
+    "a": "education"
+  },
+  {
+    "q": "sayansi",
+    "a": "science"
+  },
+  {
+    "q": "historia",
+    "a": "history"
+  },
+  {
+    "q": "sanaa",
+    "a": "art"
+  },
+  {
+    "q": "muziki",
+    "a": "music"
+  },
+  {
+    "q": "ngoma",
+    "a": "drum"
+  },
+  {
+    "q": "filamu",
+    "a": "movie"
+  },
+  {
+    "q": "runinga",
+    "a": "television"
+  },
+  {
+    "q": "redio",
+    "a": "radio"
+  },
+  {
+    "q": "gazeti",
+    "a": "newspaper"
+  },
+  {
+    "q": "kitabu cha hadithi",
+    "a": "storybook"
+  },
+  {
+    "q": "kalenda",
+    "a": "calendar"
+  },
+  {
+    "q": "saa",
+    "a": "clock"
+  },
+  {
+    "q": "dakika",
+    "a": "minute"
+  },
+  {
+    "q": "sekunde",
+    "a": "second"
+  },
+  {
+    "q": "mwaka",
+    "a": "year"
+  },
+  {
+    "q": "mwezi",
+    "a": "month"
+  },
+  {
+    "q": "wiki",
+    "a": "week"
+  },
+  {
+    "q": "siku",
+    "a": "day"
+  },
+  {
+    "q": "usiku",
+    "a": "night"
+  },
+  {
+    "q": "asubuhi",
+    "a": "morning"
+  },
+  {
+    "q": "mchana",
+    "a": "afternoon"
+  },
+  {
+    "q": "jioni",
+    "a": "evening"
+  },
+  {
+    "q": "leo",
+    "a": "today"
+  },
+  {
+    "q": "jana",
+    "a": "yesterday"
+  },
+  {
+    "q": "kesho",
+    "a": "tomorrow"
+  },
+  {
+    "q": "ngazi",
+    "a": "ladder"
+  },
+  {
+    "q": "funguo",
+    "a": "key"
+  },
+  {
+    "q": "mlango wa nyuma",
+    "a": "back door"
+  },
+  {
+    "q": "choo",
+    "a": "toilet"
+  },
+  {
+    "q": "bafu",
+    "a": "shower"
+  },
+  {
+    "q": "sabuni",
+    "a": "soap"
+  },
+  {
+    "q": "taulo",
+    "a": "towel"
+  },
+  {
+    "q": "mavazi",
+    "a": "clothing"
+  },
+  {
+    "q": "viatu",
+    "a": "shoes"
+  },
+  {
+    "q": "kofia",
+    "a": "hat"
+  },
+  {
+    "q": "miwani",
+    "a": "glasses"
+  },
+  {
+    "q": "soksi",
+    "a": "socks"
+  },
+  {
+    "q": "suruali",
+    "a": "trousers"
+  },
+  {
+    "q": "sketi",
+    "a": "skirt"
+  },
+  {
+    "q": "shati",
+    "a": "shirt"
+  },
+  {
+    "q": "blauzi",
+    "a": "blouse"
+  },
+  {
+    "q": "nguo ya ndani",
+    "a": "underwear"
+  },
+  {
+    "q": "mkoba",
+    "a": "bag"
+  },
+  {
+    "q": "soksi ndefu",
+    "a": "stockings"
+  },
+  {
+    "q": "hereni",
+    "a": "earrings"
+  },
+  {
+    "q": "mkufu",
+    "a": "necklace"
+  },
+  {
+    "q": "pete",
+    "a": "ring"
+  },
+  {
+    "q": "saa ya mkononi",
+    "a": "watch"
+  },
+  {
+    "q": "picha",
+    "a": "picture"
+  },
+  {
+    "q": "kalamu ya wino",
+    "a": "ink pen"
+  },
+  {
+    "q": "daftari",
+    "a": "notebook"
+  },
+  {
+    "q": "karatasi",
+    "a": "paper"
+  },
+  {
+    "q": "rangi",
+    "a": "color"
+  },
+  {
+    "q": "penseli",
+    "a": "pencil"
+  },
+  {
+    "q": "mkasi",
+    "a": "scissors"
+  }
+]
